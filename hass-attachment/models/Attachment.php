@@ -138,9 +138,9 @@ class Attachment extends \hass\base\ActiveRecord
             if($media->isImage())
             {
                 $this->deleteThumbs();
-            }            
+            }
             $this->deleteFile();
-        } catch (Exception $ex) {}
+        } catch (\Exception $ex) {}
     }
 
     /**
