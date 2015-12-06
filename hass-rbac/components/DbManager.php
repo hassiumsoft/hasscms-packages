@@ -31,7 +31,7 @@ class DbManager extends \yii\rbac\DbManager
     public function init()
     {
         parent::init();
-        //@todoHass 最好放在管理页面修复..
+        //@hass-todo 最好放在管理页面修复..
         $this->fixPermissions();
     }
     

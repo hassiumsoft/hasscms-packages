@@ -56,10 +56,6 @@ echo $form->field($model, 'appLogo')
 					<?=$form->field($model, 'appFrontendThemePath')->textInput()?>
 
 
-<hr />
-
-<h4>Cache Setting</h4>
-
 
 <?= Html::submitButton(Yii::t('hass', 'Save'), ['class' => 'btn bg-maroon btn-flat btn-block'])?>
 

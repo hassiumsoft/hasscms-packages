@@ -145,7 +145,7 @@ class Attachment extends \hass\base\ActiveRecord
 
     /**
      *
-     * @todoHass 这个生成唯一代码
+     * @hass-todo 这个生成唯一代码
      *       Returns a unique code used for masking the file identifier.
      * @param $file System\Models\File
      * @return string
@@ -393,7 +393,7 @@ class Attachment extends \hass\base\ActiveRecord
     }
 
     /**
-     * @todoHass  用到temp文件夹最好使用localfilesystem
+     * @hass-todo  用到temp文件夹最好使用localfilesystem
      */
     protected function makeThumbStorage($thumbFile, $thumbPath, $width, $height, $options)
     {
