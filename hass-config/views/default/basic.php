@@ -61,8 +61,6 @@ echo $form->field($model, 'appLogo')
 <h4>Cache Setting</h4>
 
 
-<?=$form->field($model, 'cacheClass')->dropDownList([FileCache::className() => 'File Cache',DbCache::className() => 'Db Cache'], ['class' => 'form-control'])?>
-
 <?= Html::submitButton(Yii::t('hass', 'Save'), ['class' => 'btn bg-maroon btn-flat btn-block'])?>
 
 	<?php $form::end(); ?>
