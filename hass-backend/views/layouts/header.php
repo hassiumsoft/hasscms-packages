@@ -55,18 +55,14 @@ $module = \hass\backend\Module::getInstance();
 		</div>
 
 		<div class="navbar-header">
-
-			
-			  <button class="btn btn-default  btn-sm navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse" >
-    
-    <span class="caret"></span>
-  </button>
-			
+			<button class="btn btn-default  btn-sm navbar-toggle collapsed"
+				type="button" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="caret"></span>
+			</button>
 		</div>
 
 		<div class="navbar-collapse collapse" role="navigation">
 		<?php
-
 echo Nav::widget([
     'items' => $module->getNavbar(),
     'options' => [
