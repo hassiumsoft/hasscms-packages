@@ -34,7 +34,7 @@ class Module extends ApplicationModule
 
     const EVENT_ADMIN_THEME = "event_admin_theme";
 
-    public $theme = "skin-purple";
+    public $theme = "skin-blue";
 
     public $layout = "@hass/backend/views/layouts/main";
 
